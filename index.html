@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>video player</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body id="body" style="background:url(back.jpg)no-repeat;background-position: center;background-size: cover;cursor: pointer;">
+
+<div class="container">
+   
+    <video  class="video" id="display"></video>
+    <div id="currentTime" class="tim"  style="color: whitesmoke">
+        00:00/00:00
+</div>
+<div class="vol">
+    <buttuon id="add" onclick="increase()"><img  src="" id="add"></buttuon>
+    <buttuon id="speaker"><img  src="" id="add"></buttuon>
+    <buttuon id="sub" onclick="decrease()"><img  src="" id="add"></buttuon>
+ <a href="index.html"><button id="backs"><img src="logo/back2.png"></button></a>
+</div>
+<div class="row">
+    <button class="previous" id="prev" onclick="prev()"><img src="logo/back.png"></button>
+        <button class="pause" id="play" onclick="playorpause()"><img src="logo/arro.png"></button>
+            <button class="next" id="for" onclick="next()"><img src="logo/button.png"></button>
+                <button class="minus"><img src="logo/down.png"></button>
+                    <input type="range" id="volume" min="0" max="1" step="0.01">
+                         <button class="plus"><img src="logo/audio.png"></button>
+                            <button style="border-radius: 20%;background-color: lightskyblue;" id="size"><img src="logo/enlarge.png"id="enlarge"></button>
+</div>
+
+        
+ 
+
+<div class="row">
+    <div class="seeks" id="seek" ></div>
+        <div class="fills" id="fill"></div>
+            <div class="handles" id="handles"></div>
+</div>
+
+    
+
+</div>
+
+<script src="design.js"></script>
+</body>
+</html>

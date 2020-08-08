@@ -1,0 +1,122 @@
+.video{
+    width:100%;
+    height: 60%;
+    border-radius: 10px;
+    position: relative;
+    right: 25px;
+  }
+  .previous,.pause,.next{
+position: relative;
+bottom:35px
+  }
+  .previous{
+      background-color: lightgray;
+      border-radius: 15%;
+      cursor: pointer;
+      position: relative;
+      left:39%;
+  }
+ .pause{
+      background-color: lightgray;
+      border-radius: 15%;
+      cursor: pointer;
+      position: relative;
+      left:40%;
+ }
+ .next{
+      background-color: lightgray;
+      border-radius: 15%;
+      cursor: pointer;
+      position: relative;
+      left:41%;
+ }
+ .seeks{
+    width:1150px;
+   height:25px;
+    border-radius:50px;
+    cursor: pointer;
+    display:flex;
+    margin-left:50px;
+    position:absolute;
+   
+    left:135px;
+    bottom:1px
+}
+.fills
+    {
+        height: 5px;
+        background-color:royalblue;
+        border-radius:20px;
+         position: relative;
+         bottom:25px
+    }
+    .handles{
+        width:8px ;
+        height: 5px;
+        background-color: royalblue;
+        border-radius: 50%;
+        margin-left: -5px;
+        transform: scale(2);
+        cursor:pointer; 
+        position:relative;
+        bottom:25px
+    }
+   
+    #volume,.plus,.minus{
+position: relative;
+bottom:35px
+
+    }
+    #volume{
+        cursor: pointer;
+        width:130px; 
+        position: relative;
+       left:790px;
+       
+
+    }
+    .plus{
+        background-color: lightgray;
+        border-radius: 50%;
+        cursor: pointer;
+        position: relative;
+        left:70%;
+    }
+.minus{
+    
+        background-color: lightgray;
+        border-radius: 50%;
+        cursor: pointer;
+        position: relative;
+        left:68.5%;
+}
+.currentTimes{
+    font-family:Coronetscript, cursive;
+}
+#add{
+    position: relative;
+    left:1200px;
+    bottom:550px
+}
+#speaker{
+    position: relative;
+    left:1165px;
+    bottom:480px
+}
+#sub{
+    position: relative;
+    left:1130px;
+    bottom:410px
+}
+#size{
+    position: relative;
+    left:700px;
+    bottom:670px
+}
+#backs{
+    background-color: lightskyblue;
+    border-radius: 20%;
+    position: relative;
+    right:190px;
+    bottom:710px
+}
